@@ -1,0 +1,21 @@
+server:
+  port: 9080
+  error:
+    include-message: ALWAYS
+spring:
+  application:
+    name: craftsman-start
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-uf6yqf7c78tatrc57qo.mysql.rds.aliyuncs.com:3306/hho-item-center?useSSL=false&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: item_center_test
+    password: item-test1234
+  servlet:
+    multipart:
+      max-file-size: 512MB
+      max-request-size: 512MB
+  mvc: # ??springboot2.6.0????swagger????2.9.2??3.0.0???
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
