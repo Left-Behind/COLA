@@ -27,7 +27,7 @@
             <artifactId>cola-component-domain-starter</artifactId>
         </dependency>
         <!-- COLA Framework End-->
-        <!--swagger接口文档依赖 test-->
+        <!--swagger接口文档依赖 -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-boot-starter</artifactId>
