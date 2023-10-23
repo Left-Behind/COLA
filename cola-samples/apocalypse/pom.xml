@@ -178,7 +178,7 @@
                 <artifactId>mybatis-plus-boot-starter</artifactId>
 
 
-                <version>3.4.3.2</version>
+                <version>3.5.4</version>
 
 
             </dependency>
