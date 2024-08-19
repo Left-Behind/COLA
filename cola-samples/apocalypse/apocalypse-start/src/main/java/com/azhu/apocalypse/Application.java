@@ -18,7 +18,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
 
     public static void main(String[] args) {
-        log.info("Begin to start Spring Boot Application");
+        log.info("Begin to start Spring Boot Application1");
         long startTime = System.currentTimeMillis();
 
         SpringApplication.run(Application.class, args);
