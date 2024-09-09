@@ -18,6 +18,6 @@ public class CustomerController {
     @ApiOperation(value = "查询媒体文件")
     @GetMapping("/selectById")
     public SingleResponse<MediaPO> selectById(@RequestParam String id) throws Exception {
-        return SingleResponse.of(mediaMapper.selectById(id));
+        return SingleResponse.of(/*mediaMapper.selectById(id)*/new MediaPO());
     }
 }
